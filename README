@@ -1,1 +1,8 @@
 This file was created by IntelliJ IDEA 10.0.2 for binding GitHub repository
+
+Libraries used in this program:
+1. Apache common - commons-io-2.0.jar
+2. Ektorp - jackson-core-asl-1.6.2.jar, jackson-mapper-asl-1.6.2.jar, and org.ektorp-1.0.2.jar
+3. Groovy
+4. REST Client
+5. SLF4j - slf4j-api-1.6.1.jar and slf4j-simple-1.6.1.jar
