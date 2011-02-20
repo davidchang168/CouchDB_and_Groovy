@@ -29,7 +29,7 @@ public class Ektorp {
         db.createDatabaseIfNotExists();
 
         Sofa sofa;   // document = ektorp
-        
+
         try {
             sofa = db.get(Sofa.class, "ektorp");
         } catch (DocumentNotFoundException e) {

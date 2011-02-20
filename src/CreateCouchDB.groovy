@@ -29,5 +29,5 @@ try {
 
 println "Creating new DB parking_tickets ..."
 def response = client.put(path: "parking_tickets", requestContentType: JSON, contentType: JSON)
-assert response.data.ok : "response from server wasn't ok"
+assert response.data.ok: "response from server wasn't ok"
 
